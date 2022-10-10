@@ -1,8 +1,9 @@
 import { useCallback } from "react";
 import { useFonts } from "expo-font";
 import * as SplashScreen from "expo-splash-screen";
-import colors from "./assets/colors/colors";
 import Router from "./views/index.routes";
+import { View } from "react-native";
+import { NavigationContainer } from "@react-navigation/native";
 
 SplashScreen.preventAutoHideAsync();
 
@@ -24,5 +25,9 @@ export default function App() {
     return null;
   }
 
-  return <Router />;
+  return (
+    <View style={{ flex: 1 }} onLayout={onLayoutRootView}>
+      <Router />
+    </View>
+  );
 }
