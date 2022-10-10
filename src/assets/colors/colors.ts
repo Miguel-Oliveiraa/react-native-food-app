@@ -5,6 +5,8 @@ const colors = {
   secondary: "#F26C68",
   textLight: "#CDCDCD",
   price: "#E4723C",
+  white: "#FFFFFF",
+  black: "#000000",
 };
 
 export default colors;
