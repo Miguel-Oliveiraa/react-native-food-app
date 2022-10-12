@@ -17,7 +17,6 @@ export function Categories() {
             marginLeft: item.id == 1 ? 20 : 0,
           },
         ]}
-        key={item.id}
       >
         <Image source={item.image} style={styles.categoryItemImage} />
         <Text style={styles.categoryItemTitle}>{item.title}</Text>
@@ -48,6 +47,7 @@ export function Categories() {
           data={categoriesData}
           renderItem={renderCategoryItem}
           horizontal={true}
+          keyExtractor={(item) => item.id}
         />
       </View>
     </View>
