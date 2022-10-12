@@ -6,7 +6,7 @@ import categoriesData from "../../assets/mocks/categoriesData";
 import styles from "./style";
 import colors from "../../../../assets/colors/colors";
 
-export default function Categories() {
+export function Categories() {
   const renderCategoryItem = ({ item }: any) => {
     return (
       <View

@@ -1,5 +1,5 @@
 import React from "react";
-import { View, Image } from "react-native";
+import { View, Image, Text } from "react-native";
 import Feather from "@expo/vector-icons/Feather";
 import colors from "../../../../assets/colors/colors";
 
@@ -14,6 +14,10 @@ export function Header() {
           style={styles.profileImage}
         />
         <Feather name="menu" size={24} color={colors.textDark} />
+      </View>
+      <View style={styles.titlesWrapper}>
+        <Text style={styles.titlesSubtitle}>Food</Text>
+        <Text style={styles.titlesTitle}>Delivery</Text>
       </View>
     </View>
   );

@@ -1,24 +1,29 @@
 import React from "react";
-import { View, Text, Image } from "react-native";
+import { View, Text, Image, TouchableOpacity } from "react-native";
 import popularData from "../../assets/mocks/popularData";
 import colors from "../../../../assets/colors/colors";
 import MaterialCommunityIcons from "@expo/vector-icons/MaterialCommunityIcons";
 import Feather from "@expo/vector-icons/Feather";
+import { useNavigation } from "@react-navigation/native";
 
 import styles from "./style";
 
 export function Popular() {
+  const navigation = useNavigation();
   return (
     <>
       <View style={styles.popularWrapper}>
         <Text style={styles.popularTitle}>Popular</Text>
         {popularData.map((item) => (
-          <View
+          <TouchableOpacity
             key={item.id}
             style={[
               styles.popularCardWrapper,
-              { marginTop: item.id == 1 ? 10 : 20 },
+              { marginTop: item.id == "1" ? 10 : 20 },
             ]}
+            onPress={() => {
+              navigation.navigate("Details", { item: item });
+            }}
           >
             <View>
               <View>
@@ -54,7 +59,7 @@ export function Popular() {
             <View style={styles.popularCardRight}>
               <Image source={item.image} style={styles.popularCardImage} />
             </View>
-          </View>
+          </TouchableOpacity>
         ))}
       </View>
     </>
