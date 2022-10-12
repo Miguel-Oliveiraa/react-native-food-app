@@ -4,6 +4,7 @@ import { Header } from "./components/Header";
 import { Title } from "./components/Title";
 import { Infos } from "./components/Infos";
 import { Ingredients } from "./components/Ingredients";
+import { OrderButton } from "./components/OrderButton";
 
 export function Details({ route }: any) {
   const { item } = route.params;
@@ -20,6 +21,7 @@ export function Details({ route }: any) {
         image={item.image}
       />
       <Ingredients data={item.ingredients} />
+      <OrderButton />
     </View>
   );
 }
