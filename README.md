@@ -1,4 +1,4 @@
-# react-native-food-app
+# Food App UI
 Mobile app for food delivery made with React-native, Expo and Typescript. 🍕📱
 
 <h1 align='left'>
