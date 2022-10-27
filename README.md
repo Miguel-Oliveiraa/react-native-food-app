@@ -14,9 +14,9 @@ Before you start, have sure you have:
 * You have a `<Windows / Linux / Mac>`.
 * You read this `<guide>`.
 
-## 🚀 Installing <rocket-help>
+## 🚀 Installing <food-app>
 
-To install <rocket-help>, Do:
+To install <food-app>, Do:
 
 Windows, Linux and macOS:
 ```
@@ -26,7 +26,7 @@ $ git clone git@github.com:Miguel-Oliveiraa/react-native-food-app.git
 ```
 
 
-## ☕ Using <rocket-help>
+## ☕ Using <food-app>
 
 To use <food-app>, you must:
 Enter the directory
@@ -44,14 +44,14 @@ Run the expo app
 $ npx expo start
 ```
 
-## 📫 Contributing to <krocket-help>
+## 📫 Contributing to <food-app>
 <!---Se o seu README for longo ou se você tiver algum processo ou etapas específicas que deseja que os contribuidores sigam, considere a criação de um arquivo CONTRIBUTING.md separado--->
 To contribute to <food-app>, follow theses steps:
 
 1. Fork this repository.
 2. Create a new branch: `git checkout -b <branch_name>`.
 3. Make yours changes and commit: `git commit -m '<commit_message>'`
-4. Send to the original branch: `git push origin <rocket-help> / <local>`
+4. Send to the original branch: `git push origin <food-app> / <local>`
 5. Create a new pull request.
 
 Alternatively, see the GitHub documentation at [Creating a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
