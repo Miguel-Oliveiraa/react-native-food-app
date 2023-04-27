@@ -10,7 +10,7 @@ Mobile app for food delivery made with React-native, Expo and Typescript. 🍕�
 
 Before you start, have sure you have:
 <!---Estes são apenas requisitos de exemplo. Adicionar, duplicar ou remover conforme necessário--->
-* Installe the most recent version of mais recente de `<nodejs / jdk / yarn>`
+* Installe the most recent version of `<nodejs / jdk / yarn>`
 * You have a `<Windows / Linux / Mac>`.
 * You read this `<guide>`.
 
